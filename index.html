@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+    <div class = "overall">
+        <div class = "left">
+            <img class = "bar-image" src = "./background.jpg" alt = "Image of leaf">
+            <div class = "bar">
+                <img class = "logo" src = "./odin.png" alt = "Odin Project logo">
+                <p class = "bar-text">Odin</p>
+            </div>
+            <div class = "credits">
+                <p>Photo by Halie West on <a id = "credits-link" href = "https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" rel = "noopener noreferrer">Unsplash</a></p>
+            </div>
+        </div>
+        <div class = "right">
+            <div class = "top">
+                <h1>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.<br>Sign up <em>now</em> to get started.</h1>
+                <h2>You <em>know</em> you want to.</h2>
+            </div>
+            <form>
+            <div class = "form">
+                    <h3>Let's do this!</h3>
+                    <div class = "form-columns">
+                        <div class = "form-column" id = "first-column">
+                            <label for = "first-name">First Name: </label>
+                            <input type = "text" id = "first-name" name = "first-name" placeholder = "Odin" required>
+                            <label for = "email">Email: </label>
+                            <input type = "email" id = "email" name = "email" placeholder = "odin@mail.com" required>
+                            <label for = "password">Password: </label>
+                            <input type = "password" id = "password" name = "password" minlength = "8" required>
+                        </div>
+                        <div class = "form-column" id = "middle">
+                            <label for = "last-name">Last Name: </label>
+                            <input type = "text" id = "last-name" name = "last-name" placeholder = "Thorson" required>
+                            <label for = "phone-number">Phone Number: </label>
+                            <input type = "text" id = "phone-number" name = "phone-number" placeholder = "412 34 567" pattern = "^4\d{2}\s?\d{2}\s?\d{3}$" required>
+                            <label for = "confirmation">Confirm Password: </label>
+                            <input type = "password" id = "confirmation" name = "confirmation" minlength = "8" required>
+                        </div>
+                    </div>
+                </div>
+                <button id = "submission" type = "submit"><strong>Create Account</strong></button>
+            </form>
+            <p id = "log-in">Already have an account? <a id = "log-in-link">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
