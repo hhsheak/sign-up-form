@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
+    align-items: stretch;
 }
 
 .left {
@@ -23,6 +24,7 @@ body {
     background-image: url("./background.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bar {
@@ -73,7 +75,6 @@ body {
 
 .top {
     padding-left: 2rem;
-    /* padding-bottom: 3rem; */
 }
 
 h2 {
