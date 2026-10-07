@@ -119,11 +119,11 @@ input:focus {
     box-shadow: 0px 5px 2px navy;
 }
 
-input:user-valid {
+input:user-valid:not(:focus) {
     border-color: green;
 }
 
-input:user-invalid {
+input:user-invalid:not(:focus) {
     border-color: red;
 }
 
