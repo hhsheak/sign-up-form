@@ -19,12 +19,10 @@ body {
 .left {
     width: 30%;
     position: relative;
-}
 
-.bar-image {
-    position: absolute;
-    z-index: -1;
-    height: 100vh;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .bar {
